@@ -1,0 +1,50 @@
+.logo {
+  display: flex;
+  background-color: #44ff0033;
+}
+
+.logo img {
+  width:150px;
+  margin: 10px 0 10px 0;
+}
+
+.header1 {
+  display: flex;
+  background-color:#44ff0033;
+  margin: 0 14px;
+}
+header ol  {
+  display: flex;
+  align-items: center;
+  width: 120px;
+  padding-left: 0;
+  margin: 0 30px;
+  justify-content:space-between;
+}
+header ol li {
+  list-style: none;
+  margin : 0 10px 0 0;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button input {
+
+    border-radius: 9px;
+    width: 458px;
+    height: 23px;
+
+}
+
+.button button {
+margin: 0 0 0 10px;
+border-radius: 7px;
+}
+header ol li:hover {
+  background-color:pink;
+  border: solid;
+  border-color: white;
+
+}
