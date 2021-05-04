@@ -17,18 +17,24 @@ header ol  {
   display: flex;
   align-items: center;
   width: 120px;
-  padding-left: 0;
-  margin: 0 30px;
   justify-content:space-between;
+  padding:0;
+  margin:0 30px;
+
 }
 header ol li {
   list-style: none;
   margin : 0 10px 0 0;
+  border:solid;
+  border-radius: 5px;
+  padding:10px;
+  border-color: transparent;
 }
 .button {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin:0 30px ;
 }
 .button input {
 
@@ -43,8 +49,76 @@ margin: 0 0 0 10px;
 border-radius: 7px;
 }
 header ol li:hover {
-  background-color:pink;
-  border: solid;
   border-color: white;
 
+}
+main {
+  background-color: #fdc7fab3
+}
+.div1{
+    display: flex;
+    margin: 20px;
+    height: 175px;
+    width: 1280px;
+    justify-content: space-between;
+}
+.img1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJYDfctCU6v-mxREQ_dKo3475zbq0WZqx9kA&usqp=CAU");
+  display: flex;
+    height: 169px;
+    width: 200px;
+    align-items: flex-end;
+    justify-content: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.img1 p {
+  color: white;
+  background-color: #00ff26bf;
+  margin:0;
+}
+.img2 {
+  background-image: url("images/mivi-featured-2-2.png");
+    height: 169px;
+    width: 200px;
+    align-items: flex-end;
+    justify-content: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.img2 p {
+    color: white;
+    background-color: #00ff26bf;
+    margin: 0;
+}
+.img3 {
+  background-image: url("images/mivi-featured-2-2.ipg");
+  height: 169px;
+  width: 200px;
+  align-items: flex-end;
+  justify-content: center;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.img3 p{
+  color: white;
+  background-color: #00ff26bf;
+  margin: 0;
+}
+
+
+footer{
+  background-color: #682ee4b3;
+  margin: 0 14px;
+
+}
+footer p {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+}
+footer p::after{
+  content: "::::FORGIVE FOR ANY MISTAKE I AM BEGNNIER ";
+  color: pink;
 }
